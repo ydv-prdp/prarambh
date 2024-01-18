@@ -18,7 +18,7 @@
   },
 });
 
-
+  ```
 tl.addLabel("start")
   .from(".box p", { scale: 0.3, rotation: 45, autoAlpha: 0 })
   .addLabel("color")
@@ -27,4 +27,4 @@ tl.addLabel("start")
   .to(".box", { rotation: 360 })
   .addLabel("end");
 
-    ```
+  
