@@ -3,7 +3,7 @@
 
     ```
     let tl = gsap.timeline({
-  scrollTrigger: {
+    scrollTrigger: {
     trigger: ".container", <!---start the animation when ".box" enters the viewport (once) --->
     pin: true, <!--- pin the trigger element while active --->
     start: "top top", <!--- when the top of the trigger hits the top of the viewport --->
