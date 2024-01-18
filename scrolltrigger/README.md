@@ -15,8 +15,8 @@
       delay: 0.2, <!--- wait 0.2 seconds from the last scroll event before doing the snapping --->
       ease: "power1.inOut", <!--- the ease of the snap animation ("power3" by default) --->
     },
-  },
-});
+    },
+    });
 
   ```
 tl.addLabel("start")
